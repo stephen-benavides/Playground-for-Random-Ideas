@@ -1,0 +1,26 @@
+﻿Abstract Modifier 
+	- Indicates that a class or a member is missing implementation
+	- Define it in a class and implement it in another class 
+
+	- PIC 1 - Abstract Shape
+		- There is no way to define a draw method for a shape as it is too abstract, it is better to implement it anywhere else but shape thus use abstract for the class 
+		- Indicate it is missing an implementation 
+
+	- PIC 2 - Abstract Implementation
+		- Abstract methods are VIRTUAL by default 
+			- No need to define the method as virtual, it is replaced with abstract 
+		- The class and at leat 1 method must be abstract 
+		- The abstract method(that is missing the implementation) does not have a body, only a signature 
+		- The impementation is provideed by a derived class 
+		
+		- If a member is abstract the class must be abstract too 
+		- You must override ALL the abstract methods from a class in a derived class 
+
+		- They cannot be instantiated, as they are missing implementation 
+			- var shape = new Shape() // NOT POSSIBLE, WON't compile
+
+		- Use to implement a common behavior and other developer must comply, in this case other develpers must provide a declaration for the draw method in a shape 
+
+		- Use the abstract to force the developer to override a method 
+
+		- Abstract classes can have non abstract methods 

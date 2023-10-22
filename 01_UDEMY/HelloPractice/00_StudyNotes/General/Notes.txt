@@ -1,0 +1,34 @@
+﻿02 - Applying USING keyword
+	- To dispose of object that are not necessary after the usage to avoid memory leakage 
+	- It is implemented here to destroy the new object StreamWriter after usage
+	- disposes the method
+	- calls method.dispose 
+
+
+04 -  Pass Multiple Interfaces
+	- It is possible to pass multiple interfaces in C# 
+
+	Inheritance - Reusability 
+	Interfaces - Let other method implement an interface 
+		- Interfaces are contracts that need to pass a specific method and implment it 
+		- You can't pass fields 
+		- Interfaces provide polymorphism 
+
+
+05 - Add elements to private readonly
+	- add elements to the field by opening a a public method that passes interface variable to the application  
+
+06 - Protect list readonly
+	- Protect the implementation by using IEnumerable so the user does not go directly to the list that is being implemented
+
+
+PASS VARIABLE ARGUMENTS IN ARRAY 
+	- In java is known as varargs (variable arguments) 
+		- It is passed as (int ... num)
+	- In C# is also nown as varargs 
+		- It is passed as 
+		- (params int[] num)
+
+
+See the main classes in C# 
+	-  System.Collections.--Generic.

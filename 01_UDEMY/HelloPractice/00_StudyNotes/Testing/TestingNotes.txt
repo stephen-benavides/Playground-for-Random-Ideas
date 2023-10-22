@@ -1,0 +1,22 @@
+Testing 
+	- Preparation
+		- Create a new project in the solution, Nunit3 for c# console applications 
+		- Get into Project > Manage Nuget Package > Nunit 3 & Nunit3 Adapter 
+
+	- Inside the Nunit 
+		- Files are the same as .cs 
+		- Setup() (default method)
+			- initialize variables 
+			must be created under the tag: [SetUp] (tag)
+		- [Test] (tag)
+			- To create method to test files
+		- [TestCase] (tag)
+			- Create specific test case and pass them as parameters in a new method under Test 
+		- Assert (Method)
+			- Indicates the type of validation to be performed 
+			- There can be different such as Assert.AreEqual or Assert.True 
+		
+
+	- Examples or more references 
+		- FileAccessorTest.cs 
+		- HangmanGameTests.cs 

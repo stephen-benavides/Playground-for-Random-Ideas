@@ -1,0 +1,64 @@
+﻿CLASS COUPLING (decoupling)
+	- Making classes not depend on other classes but become independent from each other so if we make any changes it won't affect other classes 
+
+Inheritance  (IS-a Relationship)
+	- Use to place a class with common attributes so other classes can extend from 
+	- EXAMPLE: 
+		- PresentationObjects (super/parent class) :
+			- Text - Child 
+			- Table 
+			- Image - Inherit from PresentationObject 
+	- Use keyword: base 
+		- To access methods from parent class 
+			- base.MyMethod() -- From parent1
+		- You can also use base to implement from a method
+			- public Car(string registrationNumber):base(registrationNumber) -> Construcor of the parent class
+
+
+	- We use inheritance and other stuff to decople the classes 
+		- To keep them separate from each other so if we make any changes into a class it won't affect the others 
+
+	- Inheritance allows the childs to use the methds/properties from the parent 
+	- It also allows for method overwriting 
+	
+
+
+Favour Composition	- BETTER THAN INHERITANCE 	(Has-a relationship)
+	- Similar to inheritance 
+	- Has-a relationship 
+	- Code re-use
+	- Felixible
+	- Better for loosely couple application 
+	- No special syntax like inheritance to implement composition 
+	- The related class is simply a pivate field in the composite class 
+	- Black diamonds in the child class defined a composition in UML with the arrow pointing the 'Parent'
+
+	- Composition is like dependency injection 
+
+	- Use the private property in the constructor to define it in the caller 
+	- It creates association 
+		- public DbMigrator(Logger logger)
+			- ALT + ENTER on logger to: 
+				- introduce and initialize field - DOES: 
+					- private readonly Logger _logger; 
+					- Pass the argument in the constructor body 
+						{_logger = logger;}
+
+
+Inheritance VS Composition
+	- Inheirtiance can be abused by newbies and everything would fall apart in the hearchy if a change is needed 
+	- Inheritance uses arrows to define the childs 
+	- Compositions uses black rombus 
+	- Changes in Inheritance will require modifications accross all the elements that make inheritance 
+	- Ccomposition do not make fragile changes in the classes 
+
+	- Inheritance: IS-A relationship 
+	- Composition: HAS-A relationship 
+
+	- ANY inheritance can be transformed into Composition  
+
+	- COmposition does not brake the hierarchy and the classes can be implemented for other objects without modifying anything into the system 
+		- Best approach for encapsulation 
+		- Create new classes with new copabilities of existing classes with minimal to 0 changes to other classes 
+	
+	- Inheritance let others understand what you are doing but it is harder to understand in some cases 

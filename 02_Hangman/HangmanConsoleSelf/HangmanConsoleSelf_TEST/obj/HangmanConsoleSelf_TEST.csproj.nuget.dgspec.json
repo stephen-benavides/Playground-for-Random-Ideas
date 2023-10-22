@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf_TEST\\HangmanConsoleSelf_TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\HangmanConsoleSelf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\HangmanConsoleSelf.csproj",
+        "projectName": "HangmanConsoleSelf",
+        "projectPath": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\HangmanConsoleSelf.csproj",
+        "packagesPath": "C:\\Users\\stepb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stepb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "P:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf_TEST\\HangmanConsoleSelf_TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf_TEST\\HangmanConsoleSelf_TEST.csproj",
+        "projectName": "HangmanConsoleSelf_TEST",
+        "projectPath": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf_TEST\\HangmanConsoleSelf_TEST.csproj",
+        "packagesPath": "C:\\Users\\stepb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf_TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stepb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\HangmanConsoleSelf.csproj": {
+                "projectPath": "C:\\Users\\stepb\\source\\repos\\HangmanConsoleSelf\\HangmanConsoleSelf\\HangmanConsoleSelf.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "P:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

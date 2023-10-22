@@ -1,0 +1,16 @@
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.exe
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.deps.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.runtimeconfig.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.runtimeconfig.dev.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\ref\Advanced.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\bin\Debug\net5.0\Advanced.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.csprojAssemblyReference.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.AssemblyInfoInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.AssemblyInfo.cs
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.csproj.CoreCompileInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\ref\Advanced.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\Advanced\obj\Debug\net5.0\Advanced.genruntimeconfig.cache

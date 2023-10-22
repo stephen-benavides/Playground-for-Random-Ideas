@@ -1,0 +1,77 @@
+﻿ACCESS MODIFIERS 
+
+Public 
+	- Accessible Everywhere 
+
+Default 
+	- No Access modifier 
+	- Accessible from the same package 
+
+Private 
+	- Accesible only from the class 
+
+Protected 
+	- Accessible only from the class and its derived classes. 
+	- Outside the class if you have an objec, you cant call the method, similar to private 
+	- Avoid if possible, use private instead
+	- Classes than inherit from the class that has protected will be visible for the other classes so avoid this 
+
+Internal 
+	- Accessible from the same assembly 
+
+Protected Internal 
+	- Accessible onyl from the same assembly or any derived classes 
+	- Do NOT use this
+
+
+	Use Access Modifiers to avoid having coupling and perform better encapsulation
+	Best practice is to keep the methods that make an implementation as private and keep the caller method as public so it can be use by other clasess with only 1 reference
+	in case you make changes into the implementation, you just need to make changes into 1 method and not to 10 different ones to perform the small change 
+
+
+
+USING "THIS" vs ""BASE" in Constructor and methods (ConstructorPractice.cs)
+	- base: 
+		- calls elements from the parent class 
+		- Allows the use of previously defined data in the parent class to be used by the child to re-use data 
+		- base represents an instance of the parent class
+		- Works on inheitance 
+			- base.MyMethod();
+			- base.myField;
+			- ctor:base()
+	-this: 
+		- this represents the current instance of the class
+		- calls the current object
+			- this.MyMethod(); 
+
+	- NOTE: 
+		- Both of them only work on non-static methods because in static methods there is no current instance 
+
+
+
+
+UPCASTING / DOWNCASTING
+	- UpcastingDowncastingPracting.cs
+	- Coversion from a derived class to a bass class (upcasting) 
+	- Conversion from a base class to a derived class (downcasting) 
+	- Keywords: 'as' and 'is'
+
+	- Upcasting
+		- COnversion is implicit 
+	- DOwncasting 
+		- Need to include the casting in parenthsesis 
+		- Need to point to the main class at runtime 
+		- If you try to cast something into a different object that does not belong to the main class you get an IInvalidCastingEception 
+			- Avoid exception with 'as' keyword and 'is' keyword
+			- as: safe way to check if the object can be converted to the target type, if not return null 
+			- is: Check the type of an object 
+
+		- DOWNCASTING is extremely powerfull as it allows for polymorphism 
+			- Downcasting makes changes to the reference of the object 
+				- Circle circle = new Circle()
+				- Shape shape = new Circle() 
+					- changes in shape will be reflected in circle and biseversa as we are using a reference for the object 
+					- Circle anotherCircle = (Circle)shape
+
+- OBJECT BROWSER 
+	- Check ALL OBJECTS 

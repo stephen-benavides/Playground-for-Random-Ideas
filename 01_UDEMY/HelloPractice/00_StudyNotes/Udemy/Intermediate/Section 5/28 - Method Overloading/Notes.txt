@@ -1,0 +1,45 @@
+﻿Method Override 
+	- PIC 1 
+	- Change the implementation of a method 
+	- Use keyword: virtual for the overridable method 
+	- override a method by usign the "override" in the new method that is goin gto be overrided 
+
+
+	- PIC 2 
+	- Avoid using enumerators as they have only properties and no behaviors(Method) so any changes in enum will requiere changes into multiple classes 
+	- Inseat use inheritance/polymorphism and write a class that will call the different methods 
+
+	- PIC 02-2 
+	- overriding a virtual class in another method invokes base by default.PNG
+
+	- PIC 02-3 
+	-wrong way to do things with enum switch, keep implementation in same place by using inheritance and polymorphism 
+	- It is better to keep the method encapsulated within the same class 
+
+
+	- PIC 03-2 - Polymorphism (Poly - Many ,, phism - form)
+	- PIC 03-1 - Polymorphism to call draw method
+	- Calls all elements of the shape class in this List<Shape> 
+		- It can be a shape object or anything the DERIVES from the shape object (inherit from) - (is-a relationsip) like rectangle and circle 
+		- In this case we iterate over all the objects that inherit from shape to call them at runtime 
+	- Polymorphism is inheritance in a is-a relationship 
+	- Elements that inherit from shape are also shapes 
+		- Instance of circle as a shape type return elements in the scope of a circle but they are all shapes 
+	- This will call the ahpes as intended using the foreach(datatype var in collection)
+	- you dont need to re deply code in this way but keep everything in 1 class and call them as necessary during runtime 
+
+
+	- PIC 02-4 MAIN method
+	- wrong way using enum to call a method using ctor object initializers to define the properties that are going to be used 
+
+	- PIC 02-4-1 MAIN method
+	- Just call the class itself 
+
+
+	- PIC 03-3 
+	- encapsulation to keep everything into a single unit away from the user and just using a method to call the implementation instead. 
+	- Better approah than using factory design pattern with the use of switch statements 
+	- KEEP IT SIMPLE 
+	- better approach to call a method and keep it simple with encapsulation 
+	- easier to make other implementations such as adding a triangle class and still keep it loosely coupled 
+		

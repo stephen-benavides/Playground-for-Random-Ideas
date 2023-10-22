@@ -1,0 +1,15 @@
+﻿Sealed Modifier 
+	- Same as "final" in java 
+	- Prevents override of methods 
+	- Prevents derivation of classes 
+
+	- It can only be applied to methodd/classes that are overriding data from a parent class 
+	- Only usable if the previous modifier is virtual 
+	- If you are not overriding a method then you dont need sealed 
+	- It is use for optimizations
+		- Almost never used 
+
+	- Anti-pattern 
+	- DO NOT USE unless is strictely needed 
+
+	- If you want to use them in other classes you need to apply extension methods 

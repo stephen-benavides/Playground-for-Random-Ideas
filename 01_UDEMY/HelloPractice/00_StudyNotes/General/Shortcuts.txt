@@ -1,0 +1,23 @@
+﻿Shift + Ctrl + Alt + B
+	- Get to the implementation of a method 
+
+CTRL+SPACE (JAVA)
+	- ALT+ENTER 
+
+CTRL + F5 
+	- Run Application 
+
+F5 
+	- Run application in debug mode 
+
+SHIFT + B 
+	- Build application 
+
+View > Object Browser 
+	- Look at all the objects in the current application 
+
+CTRL+D 
+	- Creates a duplicate of line above 
+
+CTRL + SHIFT + N 
+	- Go everywhere in the application by taping name of file 

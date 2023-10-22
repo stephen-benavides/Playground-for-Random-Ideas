@@ -1,0 +1,16 @@
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.exe
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.deps.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.runtimeconfig.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.runtimeconfig.dev.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\ref\PoblemResolution.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\bin\Debug\net5.0\PoblemResolution.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.csprojAssemblyReference.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.AssemblyInfoInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.AssemblyInfo.cs
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.csproj.CoreCompileInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\ref\PoblemResolution.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\PoblemResolution\obj\Debug\net5.0\PoblemResolution.genruntimeconfig.cache

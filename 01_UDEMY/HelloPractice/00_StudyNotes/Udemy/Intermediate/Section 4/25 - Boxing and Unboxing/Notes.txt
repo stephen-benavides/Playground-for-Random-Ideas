@@ -1,0 +1,7 @@
+Boxing and Unboxing 
+	- Takes data from one data type to the parent and viceversa, which makes you lose bits of data 
+	
+	Unboxing Created by downcasting 
+		- PIC 4: it has a penalty based on the object as you lose or use more bits of data
+		- PIC 5: Boxing only happens when is a value type and not a reference type -- MOSH does not box as it is a string and string is reference type
+		- PIC 6: Generic List is beeter for type safety as you dot get an object but a series of integers if you so chose

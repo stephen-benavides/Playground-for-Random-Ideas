@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1XZx8g6FEtelYQos7Ec7m0fsjjojvC4wch8Kxy0bzsrVMfQ0rg0bNy42p9808GEMgWN5eFmcJQNGMRMAUWBArw==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\stepb\\Desktop\\VisualStudio Projects\\CSharp_Practice\\HelloPractice\\HelloPractice\\HelloPractice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stepb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\stepb\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\stepb\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+﻿SECTION 2: C# Advanced Topics
+
+06 - Generics 
+	- Use to access any var type without having to box and unbox every time an object 
+
+	- Need to define <T> at the class level 
+	- After that the implementation is the same as java 
+
+	- You pass the elements at runtime therefore no boxing or unboxing

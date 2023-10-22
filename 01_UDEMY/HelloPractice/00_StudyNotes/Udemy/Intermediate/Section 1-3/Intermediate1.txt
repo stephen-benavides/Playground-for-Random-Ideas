@@ -1,0 +1,183 @@
+Constructor 
+	- Use ctor (constructor) + Tab to create a constructor ASAP
+     
+	- By using :this()
+		- You can call the no argument constructor to inherit from (or any constructor for that matter), it work the same as super from Java to use the arguments from the super constructor 
+		- Pass the arguments from the new contrustor into :this() parameters so it will inherit from there 
+		- By using this all the constructors that are inherithing from this() will use the previous elements 
+
+		
+Object Initializer 
+	- Define properties for a class 
+	- Initialize the properties using object initializer when creating the instance of a class directly 
+	- Define the values of a property for an specific instance of the class 
+	- Use this method to reserve construtors for more specific scenarios such as initializing a Collection 
+	- By using object initializer you can keep a cleaner code 
+	- EXAMPLE: 
+		static void Main(string[] args)
+			{
+				//Person person = new Person();
+				Person person = new Person
+				{
+					FirstName = "James"
+				};
+				person.CallPersonMethods();
+			}
+	
+
+
+Methods 
+	Signature of a Method 
+		- public void Move(int x, int y){}
+			- Move(int, int) <- Signature 
+	- Overloading 
+		- Having a method with the same name but different signatures 
+	- Overwriting 
+		- Having a method with the same name, signature but different data in {}
+
+	- PARAMS 
+		- public int AddParams(params int[] numbers)
+		- Use as int .. sum 
+		- Define multiple values for array in the signature 
+		- avoid creating multiple arrays of varying length 
+
+----SMELLS------
+	- Ref Modifier 
+		- Is a code smell 
+		- Better not tu use if possible 
+		- passes a value by reference instead of value 
+		- must use ref in teh signature and in the call 
+			- public void MyMethod(ref int a)
+				- wirdo.MyMethod(ref a)
+
+	- Out Modifier 
+		- It is a code smell 
+		- Similr to Ref 
+		- Allows the parameter to return something 
+			- public void MyMethod(out int result)
+			{
+				result = 1;
+			}
+			--- int a; 
+				- myClass.MyMethod(out a) 
+		- You must declare it with 'out' too to indicate the number is returning 
+		- Example: TryParse - Attempts to parse and does not ereturn exception if failed 
+		- You can use void and still return an int in this example 
+		- You might have to use the out modifier in C# sometimes 
+
+
+
+DEFENSIVE PROGRAMMING
+	- Improve robustness of your code by handling errors before they happen
+	- public void Move(Point newLocation)
+	{
+		if (newLocation == null)
+			throw new ArgumentException("newLocation")
+			-- Same as throw new IllegalArgumentException()
+	}
+
+	- GLOBAL ARGUMENT EXCEPTION 
+		- try catch block
+		- Write the code that is having the problem in it to handle the error 
+		- Use to avoid crashes in the application 
+		- Better for the user experience 
+
+
+
+- FIELDS
+	- Use prop to auto generate 
+	- Keyword: readonly 
+		- Generates one instance to be used of the field
+		- Allows to read only and not make any other modifications in the field 
+		- Only use if you are going to initialize the field only once 
+		- You can only initialize the field directly when you declare it or in a constructor 
+	- Fields should always be hidden from the outside world 
+	- This are the internals of the application (implementation details) 
+
+
+
+ACCESS MODIFIERS 
+	- Public 
+		- Access anywhere in the application 
+		- Better for methods to print data from fields 
+		- Show what methods are capable of doing and not how it is done 
+	- Protected 
+		- Access anywhere in the same package and subclasses 
+	- Default 
+		- Access anywhere in the same package
+	- Private
+		- Access in the same class 
+		- Better to use for fields 
+		- Private fields should always by written as (_camelCase)
+	- Internal 
+	- Protected Internal 
+
+
+
+
+- PROPERTIES 
+	- Same as fields but the getters and setters are defined in the field 
+	- Encapsulates getter ansd setters to access a field 
+	- Properties are always public 
+
+		private DateTime _birthdate;
+        public DateTime BirhDate
+        {
+            get { return _birthdate; }
+            set { _birthdate = value; }
+        }
+	- Keyword 
+		- Value: value to be passed into the parameter for the private field 
+
+	- Auto Generated Properties 
+		- prop 
+		- for easy things.
+		- just simple get and set 
+		- EXAMPLE: 
+			public DateTime Birthdate { get; private set; } 
+
+
+	- User Define Properties 
+		- For more logic oriented things 
+		- EXAMPLE: 
+			public DateTime BirhDate
+			{
+				get
+				{
+					// You can write anything you like and return the type of property 
+					// as any other method 
+					// Write any logic you want 
+					return _birthdate; // Need to return a defined field 
+				}
+				set { _birthdate = value; }
+			}
+
+
+
+	- ildasm (command line) 
+		- Intermediate Language (Target language)
+		- Command to dissaseemble the current .exe file 
+		- See the things that are being compiled 
+		- Code is running from IL to binary 
+		- 
+		
+
+
+CLASS SETUP (Class Order)
+	- Always place your auto generated propeties at the top 
+	- Follow by the Constructors 
+	- Follow by user generated properties with any logic 
+
+
+
+
+INDEXERS
+	- Same as property 
+	- instead of identifier use the this keyword, indexers do not have a name 
+	- uses brackets '[]' in the signature 
+		- public string this[string key]
+			get{...}
+			set{...}
+	- Better to get data from data types such as dictionaries 
+	- It is cleaner and more efficient 
+	

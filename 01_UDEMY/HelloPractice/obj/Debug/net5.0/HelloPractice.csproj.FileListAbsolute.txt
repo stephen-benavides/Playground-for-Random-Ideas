@@ -1,0 +1,16 @@
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.csprojAssemblyReference.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.AssemblyInfoInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.AssemblyInfo.cs
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.csproj.CoreCompileInputs.cache
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.exe
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.deps.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.runtimeconfig.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.runtimeconfig.dev.json
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\ref\HelloPractice.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\bin\Debug\net5.0\HelloPractice.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\ref\HelloPractice.dll
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.pdb
+D:\Users\stepb\Desktop\VisualStudio Projects\00-UDEMY\HelloPractice\obj\Debug\net5.0\HelloPractice.genruntimeconfig.cache

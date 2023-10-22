@@ -1,0 +1,24 @@
+﻿Interfaces are the middle man to communicate with a class
+
+- Pass an interface as a dependency injection 
+- Implement the methods in another class 
+
+- by inheritance the class will have the other implementations 
+- In the main method you can create the instance for the Ilogger 
+	- To pass the instance of ConsoleLogger as an ILogger 
+
+-PIC 07
+	- Easier to make changes to the objects without changing other classes and changing the object that is passed as type of ILogger
+
+- PIC 08 - OPC - Open Close Principle 
+	- Software entities should be open for extension but close for modifications 
+	- DBMigrator is closed for any modifications as none can be performed 
+		- But Open for modication by using logger private field and dependency injection through the ctor 
+
+	- Interfaces provide polymorphism 
+
+PIC 09 - Polymorphism Interface
+	- We do not care who implements the method, we only care about what is doing 
+	- Best principle of interfaces to allow polymorphic behavior 
+	- This class follows OCP 
+		- It is closed for changes and open for modifications throuh the interface 

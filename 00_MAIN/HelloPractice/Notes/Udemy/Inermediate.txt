@@ -1,0 +1,27 @@
+Constructor 
+	- Use 
+	- Use ctor (constructor) + Tab to create a constructor ASAP
+     
+	- By using :this()
+		- You can call the no argument constructor to inherit from (or any constructor for that matter), it work the same as super from Java to use the arguments from the super constructor 
+		- Pass the arguments from the new contrustor into :this() parameters so it will inherit from there 
+		- By using this all the constructors that are inherithing from this() will use the previous elements 
+
+		
+Object Initializer 
+	- Define properties for a class 
+	- Initialize the properties using object initializer when creating the instance of a class directly 
+	- Define the values of a property for an specific instance of the class 
+	- Use this method to reserve construtors for more specific scenarios such as initializing a Collection 
+	- By using object initializer you can keep a cleaner code 
+	- EXAMPLE: 
+		static void Main(string[] args)
+			{
+				//Person person = new Person();
+				Person person = new Person
+				{
+					FirstName = "James"
+				};
+				person.CallPersonMethods();
+			}
+	

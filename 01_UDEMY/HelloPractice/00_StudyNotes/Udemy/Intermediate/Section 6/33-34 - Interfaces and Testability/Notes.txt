@@ -1,0 +1,38 @@
+﻿Interface 
+
+	- Similar to a class 
+	- PIC 01 - Interface Syntax 
+		- Include interface keyword instead of class 
+		- ALl interface start with I in the name 
+		- DO not have implementations 
+		- DO NOT have access modifiers in the methods 
+
+		- Use to build loosely-coupled applicatations (the best approach in software development) 
+			- Not tightly related 
+			- 0 impact between components 
+			- does not matter if it is implemented or not 
+		
+		PIC 02 - Interface declaration
+			- No impact on OderProcessor 
+			- Easier to implement and not tighly coupled 
+
+
+UNIT TESTING 
+	- PIC 02-1 - Order Class
+		- The class applies a Shipment class that is way it is possible to create a new instance of shipment as it is implemented with composition(has a relationship)
+
+	- PIC 03 - Tight coupling cant be tested
+	- Method must be isolated for testing purposes 
+	- Solve by interface 
+
+	- PIC 03-1 - loose coupling
+		- By Creating an interface and passing the interface as parameter you are removing the tight copling 
+		- This can be use for testing purposes for the method that is implementing it as it is isolated 
+
+	- PIC 03-2 - need to pass the concrete class in main
+		- pass it on main the class that impements the interface to pass the methods 
+
+	- Methods declare in an interface must always be public   
+
+	-- EXTRACTING INTERFACES and UNIT TESTING 
+		D:\Users\stepb\Desktop\VisualStudio Projects\CSharp_Practice\HelloPractice\HelloPractice\00_StudyNotes\Testing\
